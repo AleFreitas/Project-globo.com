@@ -4,11 +4,11 @@
     <!--Links for enabling Encode Sans font-family-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
     <link
       href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
     <!--links for css styles-->
     <link href="reset.css" rel="stylesheet" />
     <link href="menu.css" rel="stylesheet" />
@@ -18,341 +18,319 @@
       body {
         font-family: "Encode Sans";
         font-weight: 500;
-        display: flex;
+        display: block;
         justify-content: center;
-      }
-      .website {
-        width: 1250px;
-      }
-      .header {
-        background-color: #ffffff;
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
       }
     </style>
   </head>
   <body>
-    <!--div for website alignment-->
-    <div class="website">
-      <!--home redirect div-->
-      <div class="header">
-        <div class="globo-com">
-          <a href="https://www.globo.com/">
-            <img src="globo-com.jpeg" />
+    <!--home redirect div-->
+    <div class="cabecalho">
+      <div class="globo-com">
+        <a href="https://www.globo.com/">
+          <img src="globo-com.jpeg" />
+        </a>
+      </div>
+    </div>
+    <!--the following div creates a horizontal divider on the website-->
+    <div class="horizontalDivider"></div>
+    <!--redirect menu div-->
+    <div class="menu">
+      <div class="menuItem">
+        <a
+          class="g1"
+          href="https://g1.globo.com/?utm_source=globo.com&utm_medium=header"
+          >g1</a
+        >
+      </div>
+      <div class="menuItem">
+        <a
+          class="oglobo"
+          href="https://oglobo.globo.com/?utm_source=globo.com&utm_medium=header&utm_campaign=chamada_header"
+          >o globo</a
+        >
+      </div>
+      <div class="menuItem">
+        <a
+          class="valor"
+          href="https://valor.globo.com/?utm_source=globo.com&utm_medium=header"
+          >valor</a
+        >
+      </div>
+      <div class="menuItem">
+        <a class="ge" href="https://ge.globo.com/">ge</a>
+      </div>
+      <div class="menuItem">
+        <a
+          class="cartola"
+          href="https://ge.globo.com/cartola/?utm_source=globocom&utm_medium=header&utm_campaign=c2022_10_cartola_cartola-2022_alcance&utm_content=HEA_cartola-2022"
+          >cartola</a
+        >
+      </div>
+      <div class="menuItem">
+        <a
+          class="globoplay"
+          href="https://globoplay.globo.com/?origemId=1760&utm_source=gcom&utm_medium=home&utm_campaign=gcom-botao-destaque-superior"
+          >globoplay</a
+        >
+      </div>
+      <div class="menuItem">
+        <a
+          class="dropz"
+          href="https://gigagloob.globo.com/assine/?origemId=2641&utm_source=globo.com&utm_medium=header"
+          >dropz</a
+        >
+      </div>
+      <div class="menuItem">
+        <a
+          class="gshow"
+          href="https://gshow.globo.com/?utm_source=globo.com&utm_medium=header"
+          >gshow</a
+        >
+      </div>
+      <div class="menuItem">
+        <a
+          class="quem"
+          href="https://revistaquem.globo.com/?utm_source=globo.com&utm_medium=header"
+          >quem</a
+        >
+      </div>
+      <div class="menuItem">
+        <a
+          class="receitas"
+          href="https://receitas.globo.com/?utm_source=globo.com&utm_medium=header"
+          >receitas</a
+        >
+      </div>
+    </div>
+    <!--the following div creates a horizontal divider on the website-->
+    <div class="horizontalDivider2"></div>
+    <!--division between columns-->
+    <div class="news">
+      <!--first Column news-->
+      <div class="firstColumnNews">
+        <!--main news item div-->
+        <div class="mainNews">
+          <p>
+            Vacinados entrarão nos EUA sem quarentena a partir de 8 de novembro
+          </p>
+        </div>
+        <!--secondary news item div-->
+        <div class="secNews">
+          <p>
+            Ministros 'lavam as mãos' sobre Bolsonaro não se vacinar, relata
+            blog
+          </p>
+          <p class="p1">
+            Bandeiras em frente ao Congresso lembram 600 mil brasileiros mortos
+          </p>
+        </div>
+        <!--the following div creates a horizontal divider on a column-->
+        <div class="columnHorizontalDivider"></div>
+        <!--beginning of the normal news-->
+        <!--1° item (além do presidente)-->
+        <div class="newsItem">
+          <a class="newsLink" href="redirect.html">
+            <img
+              class="img"
+              src="projeto-globocom-imagens/alem-do-presidente.jpeg"
+            />
+            <p class="titleFirstColumn">
+              Além do presidente
+            </p>
+            <p class="introFirstColumn">
+              CPI deve pedir indiciamento de filhos de Bolsonaro
+            </p>
+            <p class="textFirstColumn">
+              A evangélicos, Bolsonaro diz 'chorar sozinho em casa'
+            </p>
+          </a>
+        </div>
+        <!--2° item (Crimes na fronteira)-->
+        <div class="newsItem">
+          <a class="newsLink" href="redirect.html">
+            <img
+              class="img"
+              src="projeto-globocom-imagens/crimes-na-fronteira.jpeg"
+            />
+            <p class="titleFirstColumn">
+              Crimes na fronteira
+            </p>
+            <p class="introFirstColumn">
+              Triângulo amoroso vira chave em linha de investigação
+            </p>
+            <p class="textFirstColumn">
+              1ª de 7 mortes entre Brasil e Paraguai faz 1 semana
+            </p>
+          </a>
+        </div>
+        <!--3° item (Reino Unido)-->
+        <div class="newsItem">
+          <a class="newsLink" href="redirect.html">
+            <img class="img" src="projeto-globocom-imagens/reino-unido.jpeg" />
+            <p class="titleFirstColumn">
+              Reino Unido
+            </p>
+            <p class="introFirstColumn">
+              Parlamentar inglês é esfaqueado e morto em igreja
+            </p>
+            <p class="textFirstColumn">
+              Homem de 25 anos foi preso no local, diz polícia
+            </p>
+          </a>
+        </div>
+        <!--the following div creates a horizontal divider on a column-->
+        <div class="columnHorizontalDivider"></div>
+        <!--4° item (Sabatina de Mendonça)-->
+        <div class="newsItem">
+          <a class="newsLink" href="redirect.html">
+            <p class="titleFirstColumn">
+              Sabatina de Mendonça
+            </p>
+            <p class="introFirstColumn">
+              PGR é consultada sobre investigação contra Alcolumbre
+            </p>
+            <p class="textFirstColumn">
+              Aliados dizem que situação de Alcolumbre 'está feia'
+            </p>
+          </a>
+        </div>
+        <!--5° item (Negócio de R$ 5,2 bi)-->
+        <div class="newsItem">
+          <a class="newsLink" href="redirect.html">
+            <p class="titleFirstColumn">
+              Negócio de R$ 5,2 bi
+            </p>
+            <p class="introFirstColumn">
+              Pão de Açúcar vende 71 pontos do Extra para o Assaí
+            </p>
+            <p class="textFirstColumn">
+              Lembre fusões e aquisições bilionárias recentes no país
+            </p>
+          </a>
+        </div>
+        <!--6° item (Elo com caminhoneiros)-->
+        <div class="newsItem">
+          <a class="newsLink" href="redirect.html">
+            <p class="titleFirstColumn">
+              Elo com caminhoneiros
+            </p>
+            <p class="introFirstColumn">
+              Podcast: ministro liga empresários a atos de 7/9; ouça
+            </p>
+            <p class="textFirstColumn">
+              Neto de Jango critica veto de Bolsonaro a tributo
+            </p>
           </a>
         </div>
       </div>
-      <!--the following div creates a horizontal divider on the website-->
-      <div class="horizontalDivider"></div>
-      <!--redirect menu div-->
-      <div class="menu">
-        <div class="menuItem">
-          <a
-            class="g1"
-            href="https://g1.globo.com/?utm_source=globo.com&utm_medium=header"
-            >g1</a
-          >
+      <!--the following div creates a vertical divider on a column-->
+      <div class="verticalDivider"></div>
+      <!--Second column News-->
+      <div>
+        <!--1° item Espião estatístico-->
+        <div class="newsItem2">
+          <a class="newsLink" href="redirect.html">
+            <img
+              class="img2"
+              src="projeto-globocom-imagens/espiao-estatistico.jpeg"
+            />
+            <p class="titleFirstColumnGreen">
+              Espião estatístico
+            </p>
+            <p class="introFirstColumn">
+              Classificação do returno tem Palmeiras em último; veja as posições
+            </p>
+            <p class="textFirstColumn">
+              Crespo almoça com diretoria e deve se despedir no CT
+            </p>
+          </a>
         </div>
-        <div class="menuItem">
-          <a
-            class="oglobo"
-            href="https://oglobo.globo.com/?utm_source=globo.com&utm_medium=header&utm_campaign=chamada_header"
-            >o globo</a
-          >
+        <!--2° item Greve segue na raposa-->
+        <div class="newsItem2">
+          <a class="newsLink" href="redirect.html">
+            <img
+              class="img2"
+              src="projeto-globocom-imagens/greve-segue-na-raposa.jpeg"
+            />
+            <p class="titleFirstColumnGreen">
+              Greve segue na Raposa
+            </p>
+            <p class="introFirstColumn">
+              Cruzeiro não viabiliza recurso para quitar atrasados
+            </p>
+          </a>
         </div>
-        <div class="menuItem">
-          <a
-            class="valor"
-            href="https://valor.globo.com/?utm_source=globo.com&utm_medium=header"
-            >valor</a
-          >
-        </div>
-        <div class="menuItem">
-          <a class="ge" href="https://ge.globo.com/">ge</a>
-        </div>
-        <div class="menuItem">
-          <a
-            class="cartola"
-            href="https://ge.globo.com/cartola/?utm_source=globocom&utm_medium=header&utm_campaign=c2022_10_cartola_cartola-2022_alcance&utm_content=HEA_cartola-2022"
-            >cartola</a
-          >
-        </div>
-        <div class="menuItem">
-          <a
-            class="globoplay"
-            href="https://globoplay.globo.com/?origemId=1760&utm_source=gcom&utm_medium=home&utm_campaign=gcom-botao-destaque-superior"
-            >globoplay</a
-          >
-        </div>
-        <div class="menuItem">
-          <a
-            class="dropz"
-            href="https://gigagloob.globo.com/assine/?origemId=2641&utm_source=globo.com&utm_medium=header"
-            >dropz</a
-          >
-        </div>
-        <div class="menuItem">
-          <a
-            class="gshow"
-            href="https://gshow.globo.com/?utm_source=globo.com&utm_medium=header"
-            >gshow</a
-          >
-        </div>
-        <div class="menuItem">
-          <a
-            class="quem"
-            href="https://revistaquem.globo.com/?utm_source=globo.com&utm_medium=header"
-            >quem</a
-          >
-        </div>
-        <div class="menuItem">
-          <a
-            class="receitas"
-            href="https://receitas.globo.com/?utm_source=globo.com&utm_medium=header"
-            >receitas</a
-          >
+        <!--3° item Campeonato francês-->
+        <div class="newsItem2">
+          <a class="newsLink" href="redirect.html">
+            <img
+              class="img2"
+              src="projeto-globocom-imagens/campeonato-frances.jpeg"
+            />
+            <p class="titleFirstColumnGreen">
+              Campeonato francês
+            </p>
+            <p class="introFirstColumn">
+              Desfalcado, PSG recebe o Angers, 4º colocado
+            </p>
+          </a>
         </div>
       </div>
-      <!--the following div creates a horizontal divider on the website-->
-      <div class="horizontalDivider2"></div>
-      <!--division between columns-->
-      <div class="news">
-        <!--first Column news-->
-        <div class="firstColumnNews">
-          <!--main news item div-->
-          <div class="mainNews">
-            <p>
-              Vacinados entrarão nos EUA sem quarentena a partir de 8 de
-              novembro
+      <!--the following div creates a vertical divider on a column-->
+      <div class="verticalDivider"></div>
+      <!--third column news-->
+      <div>
+        <!--1° item Férias e JH-->
+        <div class="newsItem2">
+          <a class="newsLink" href="redirect.html">
+            <img class="img2" src="projeto-globocom-imagens/ferias-e-jh.jpeg" />
+            <p class="titleFirstColumnOrange">
+              Férias e JH
             </p>
-          </div>
-          <!--secondary news item div-->
-          <div class="secNews">
-            <p>
-              Ministros 'lavam as mãos' sobre Bolsonaro não se vacinar, relata
-              blog
+            <p class="introFirstColumn">
+              César Tralli se emociona na despedida do SP1
             </p>
-            <p class="p1">
-              Bandeiras em frente ao Congresso lembram 600 mil brasileiros
-              mortos
-            </p>
-          </div>
-          <!--the following div creates a horizontal divider on a column-->
-          <div class="columnHorizontalDivider"></div>
-          <!--beginning of the normal news-->
-          <!--1° item (além do presidente)-->
-          <div class="newsItem">
-            <a class="newsLink" href="redirect.html">
-              <img
-                class="img"
-                src="projeto-globocom-imagens/alem-do-presidente.jpeg"
-              />
-              <p class="titleFirstColumn">
-                Além do presidente
-              </p>
-              <p class="introFirstColumn">
-                CPI deve pedir indiciamento de filhos de Bolsonaro
-              </p>
-              <p class="textFirstColumn">
-                A evangélicos, Bolsonaro diz 'chorar sozinho em casa'
-              </p>
-            </a>
-          </div>
-          <!--2° item (Crimes na fronteira)-->
-          <div class="newsItem">
-            <a class="newsLink" href="redirect.html">
-              <img
-                class="img"
-                src="projeto-globocom-imagens/crimes-na-fronteira.jpeg"
-              />
-              <p class="titleFirstColumn">
-                Crimes na fronteira
-              </p>
-              <p class="introFirstColumn">
-                Triângulo amoroso vira chave em linha de investigação
-              </p>
-              <p class="textFirstColumn">
-                1ª de 7 mortes entre Brasil e Paraguai faz 1 semana
-              </p>
-            </a>
-          </div>
-          <!--3° item (Reino Unido)-->
-          <div class="newsItem">
-            <a class="newsLink" href="redirect.html">
-              <img
-                class="img"
-                src="projeto-globocom-imagens/reino-unido.jpeg"
-              />
-              <p class="titleFirstColumn">
-                Reino Unido
-              </p>
-              <p class="introFirstColumn">
-                Parlamentar inglês é esfaqueado e morto em igreja
-              </p>
-              <p class="textFirstColumn">
-                Homem de 25 anos foi preso no local, diz polícia
-              </p>
-            </a>
-          </div>
-          <!--the following div creates a horizontal divider on a column-->
-          <div class="columnHorizontalDivider"></div>
-          <!--4° item (Sabatina de Mendonça)-->
-          <div class="newsItem">
-            <a class="newsLink" href="redirect.html">
-              <p class="titleFirstColumn">
-                Sabatina de Mendonça
-              </p>
-              <p class="introFirstColumn">
-                PGR é consultada sobre investigação contra Alcolumbre
-              </p>
-              <p class="textFirstColumn">
-                Aliados dizem que situação de Alcolumbre 'está feia'
-              </p>
-            </a>
-          </div>
-          <!--5° item (Negócio de R$ 5,2 bi)-->
-          <div class="newsItem">
-            <a class="newsLink" href="redirect.html">
-              <p class="titleFirstColumn">
-                Negócio de R$ 5,2 bi
-              </p>
-              <p class="introFirstColumn">
-                Pão de Açúcar vende 71 pontos do Extra para o Assaí
-              </p>
-              <p class="textFirstColumn">
-                Lembre fusões e aquisições bilionárias recentes no país
-              </p>
-            </a>
-          </div>
-          <!--6° item (Elo com caminhoneiros)-->
-          <div class="newsItem">
-            <a class="newsLink" href="redirect.html">
-              <p class="titleFirstColumn">
-                Elo com caminhoneiros
-              </p>
-              <p class="introFirstColumn">
-                Podcast: ministro liga empresários a atos de 7/9; ouça
-              </p>
-              <p class="textFirstColumn">
-                Neto de Jango critica veto de Bolsonaro a tributo
-              </p>
-            </a>
-          </div>
+          </a>
         </div>
-        <!--the following div creates a vertical divider on a column-->
-        <div class="verticalDivider"></div>
-        <!--Second column News-->
-        <div>
-          <!--1° item Espião estatístico-->
-          <div class="newsItem2">
-            <a class="newsLink" href="redirect.html">
-              <img
-                class="img2"
-                src="projeto-globocom-imagens/espiao-estatistico.jpeg"
-              />
-              <p class="titleFirstColumnGreen">
-                Espião estatístico
-              </p>
-              <p class="introFirstColumn">
-                Classificação do returno tem Palmeiras em último; veja as
-                posições
-              </p>
-              <p class="textFirstColumn">
-                Crespo almoça com diretoria e deve se despedir no CT
-              </p>
-            </a>
-          </div>
-          <!--2° item Greve segue na raposa-->
-          <div class="newsItem2">
-            <a class="newsLink" href="redirect.html">
-              <img
-                class="img2"
-                src="projeto-globocom-imagens/greve-segue-na-raposa.jpeg"
-              />
-              <p class="titleFirstColumnGreen">
-                Greve segue na Raposa
-              </p>
-              <p class="introFirstColumn">
-                Cruzeiro não viabiliza recurso para quitar atrasados
-              </p>
-            </a>
-          </div>
-          <!--3° item Campeonato francês-->
-          <div class="newsItem2">
-            <a class="newsLink" href="redirect.html">
-              <img
-                class="img2"
-                src="projeto-globocom-imagens/campeonato-frances.jpeg"
-              />
-              <p class="titleFirstColumnGreen">
-                Campeonato francês
-              </p>
-              <p class="introFirstColumn">
-                Desfalcado, PSG recebe o Angers, 4º colocado
-              </p>
-            </a>
-          </div>
+        <!--2° item Verdades Secretas 2-->
+        <div class="newsItem2">
+          <a class="newsLink" href="redirect.html">
+            <img
+              class="img2"
+              src="projeto-globocom-imagens/verdades-secretas-2.jpeg"
+            />
+            <p class="titleFirstColumnOrange">
+              Verdades Secretas 2
+            </p>
+            <p class="introFirstColumn">
+              Angel cruza a passarela poderosa; reveja desfiles
+            </p>
+            <p class="textFirstColumn">
+              Blanche terá dois relacionamentos
+            </p>
+            <p class="textFirstColumn">
+              Gabriel viverá sadomasoquista
+            </p>
+          </a>
         </div>
-        <!--the following div creates a vertical divider on a column-->
-        <div class="verticalDivider2"></div>
-        <!--third column news-->
-        <div>
-          <!--1° item Férias e JH-->
-          <div class="newsItem2">
-            <a class="newsLink" href="redirect.html">
-              <img
-                class="img2"
-                src="projeto-globocom-imagens/ferias-e-jh.jpeg"
-              />
-              <p class="titleFirstColumnOrange">
-                Férias e JH
-              </p>
-              <p class="introFirstColumn">
-                César Tralli se emociona na despedida do SP1
-              </p>
-            </a>
-          </div>
-          <!--2° item Verdades Secretas 2-->
-          <div class="newsItem2">
-            <a class="newsLink" href="redirect.html">
-              <img
-                class="img2"
-                src="projeto-globocom-imagens/verdades-secretas-2.jpeg"
-              />
-              <p class="titleFirstColumnOrange">
-                Verdades Secretas 2
-              </p>
-              <p class="introFirstColumn">
-                Angel cruza a passarela poderosa; reveja desfiles
-              </p>
-              <p class="textFirstColumn">
-                Blanche terá dois relacionamentos
-              </p>
-              <p class="textFirstColumn">
-                Gabriel viverá sadomasoquista
-              </p>
-            </a>
-          </div>
-          <!--3° item -->
-          <div class="newsItem2">
-            <a class="newsLink" href="redirect.html">
-              <img
-                class="img2"
-                src="projeto-globocom-imagens/nos-tempos-do-imperador.jpeg"
-              />
-              <p class="titleFirstColumnOrange">
-                Nos tempos do imperador
-              </p>
-              <p class="introFirstColumn">
-                Lota vai cair em golpe
-              </p>
-              <p class="textFirstColumn">
-                Teresa toma decisão radical
-              </p>
-            </a>
-          </div>
+        <!--3° item -->
+        <div class="newsItem2">
+          <a class="newsLink" href="redirect.html">
+            <img
+              class="img2"
+              src="projeto-globocom-imagens/nos-tempos-do-imperador.jpeg"
+            />
+            <p class="titleFirstColumnOrange">
+              Nos tempos do imperador
+            </p>
+            <p class="introFirstColumn">
+              Lota vai cair em golpe
+            </p>
+            <p class="textFirstColumn">
+              Teresa toma decisão radical
+            </p>
+          </a>
         </div>
       </div>
     </div>
