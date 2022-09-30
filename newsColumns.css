@@ -21,12 +21,17 @@
     margin-right:20px;
 }.newsItem2{
     margin-top:40px;
-    width:193px;
+    width:240px;
     margin-left:20px;
 }.img{
     border-radius:12px;
     width:193px;
     height:110px;
+    margin-bottom:10px;
+}.img2{
+    border-radius:12px;
+    width:240px;
+    height:128px;
     margin-bottom:10px;
 }.newsLink{
     text-decoration:none;

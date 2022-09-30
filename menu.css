@@ -15,16 +15,14 @@
 }.verticalDivider{
     background-color:#EBEDEF;
     width:1px;
-    height:700px;
-    margin-left:5px;
-    margin-right:10px;
+    height:750px;
+    margin-right:3px;
     margin-top:40px;
 }.verticalDivider2{
     background-color:#EBEDEF;
     width:1px;
-    height:700px;
-    margin-left:30px;
-    margin-right:10px;
+    height:750px;
+    margin-left:20px;
     margin-top:40px;
 }.columnHorizontalDivider{
     background-color:#F5F6F7;
@@ -35,7 +33,7 @@
 }.menu{
     display:flex;
 }.menuItem{
-    margin-right:69px;
+    margin-right:70px;
 }.g1,.oglobo,.valor,.ge,.cartola,.globoplay,.dropz,.gshow,.quem,.receitas{
     text-decoration:none;
     font-weight:700;
