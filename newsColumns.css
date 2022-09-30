@@ -1,60 +1,74 @@
-.news{
-    display:flex;
-}.firstColumnNews{
-    width:640px;
-    display:flex;
-    flex-wrap: wrap;
-}.mainNews{
-    width:624px;
-    height:201px;
-    font-size:52px;
-    font-weight:bold;
-    color:#C4160C;
-    margin-top:40px;
-}.secNews{
-    font-size:18px;
-}.p1{
-    margin-top:10px;
-}.newsItem{
-    margin-top:40px;
-    width:193px;
-    margin-right:20px;
-}.newsItem2{
-    margin-top:40px;
-    width:240px;
-    margin-left:20px;
-}.img{
-    border-radius:12px;
-    width:193px;
-    height:110px;
-    margin-bottom:10px;
-}.img2{
-    border-radius:12px;
-    width:240px;
-    height:128px;
-    margin-bottom:10px;
-}.newsLink{
-    text-decoration:none;
-}.titleFirstColumn{
-    font-size:14px;
-    color:#C4170C;
-    margin-bottom:10px;
-}.titleFirstColumnGreen{
-    font-size:14px;
-    color:#16AE54;
-    margin-bottom:10px;
-}.titleFirstColumnOrange{
-    font-size:14px;
-    color:#EC8006;
-    margin-bottom:10px;
-}.introFirstColumn{
-    font-weight:700;
-    font-size:20px;
-    color:#2F3134;
-    margin-bottom:10px;
-}.textFirstColumn{
-    font-weight:400;
-    font-size:14px;
-    color:#2F3134;
-    margin-bottom:5px;
+.news {
+  width: 1250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.firstColumnNews {
+  width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mainNews {
+  width: 624px;
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.secNews {
+  font-size: 18px;
+}
+.p1 {
+  margin-top: 10px;
+}
+.newsItem {
+  width: 193px;
+}
+.newsItem2 {
+  margin-top: 40px;
+  width: 240px;
+}
+.img {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+  margin-bottom: 10px;
+}
+.img2 {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+  margin-bottom: 10px;
+}
+.newsLink {
+  text-decoration: none;
+}
+.titleFirstColumn {
+  font-size: 14px;
+  color: #c4170c;
+  margin-bottom: 10px;
+}
+.titleFirstColumnGreen {
+  font-size: 14px;
+  color: #16ae54;
+  margin-bottom: 10px;
+}
+.titleFirstColumnOrange {
+  font-size: 14px;
+  color: #ec8006;
+  margin-bottom: 10px;
+}
+.introFirstColumn {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2f3134;
+  margin-bottom: 10px;
+}
+.textFirstColumn {
+  font-weight: 400;
+  font-size: 14px;
+  color: #2f3134;
+  margin-bottom: 5px;
 }
