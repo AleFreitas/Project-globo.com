@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin:auto;
 }
 .globo-com {
   width: 171px;
@@ -38,6 +39,7 @@
   display: flex;
   justify-content: space-around;
   width: 1250px;
+  margin:auto;
 }
 .g1,
 .oglobo,

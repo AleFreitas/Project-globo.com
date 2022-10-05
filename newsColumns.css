@@ -2,6 +2,7 @@
   width: 1250px;
   display: flex;
   justify-content: space-evenly;
+  margin: auto;
 }
 .firstColumnNews {
   width: 640px;
